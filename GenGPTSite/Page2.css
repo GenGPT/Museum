@@ -1,0 +1,197 @@
+header{
+    width: 100%;
+    background-color: rgb(3, 42, 76);
+}
+.logo{
+    height: 250px;
+    width: 100%;
+    border-bottom: 3px solid rgb(244, 213, 169);
+}
+.image{
+    margin: 0;
+    width: 400px;
+    height: 100px;
+}
+.inf1{
+    color: rgb(244, 213, 169);
+    font-size: 56px;
+    width: 200%;
+    text-align: center;
+    justify-content: center;
+    margin: 0px 0 0 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+.menu{
+    padding: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(244, 213, 169);
+    font-size: 20px;
+}
+a:hover{
+    color: rgb(73, 78, 148);
+}
+
+.pros{
+    width: 100%;
+    height: 30px;
+}
+.off2{
+    width: 100%;
+    height: 408px;
+}
+.im{
+    background-color: rgb(3, 42, 76);
+    background-size: cover;
+    height: 408px;
+}
+.pros2{
+    height: 30px;
+}
+.sob{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.im1{
+    width: 3px;
+    height: 3px;
+}
+.im2{
+    width: 3px;
+    height: 3px;
+}
+.im3{
+    width: 3px;
+    height: 3px;
+}
+.text1{
+    text-align: center;
+}
+
+.text2{
+    text-align: center;
+}
+.text3{
+    text-align: center;
+}
+.box1{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+
+}
+.box2{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+}
+.box3{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+}
+.box4{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+}
+.box5{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+}
+.pros3{
+    height: 30px;
+}
+form{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.stt{
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 30px;
+}
+
+.str{
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 30px;
+}
+.back-to-top {
+    background: rgb(244, 213, 169);
+    border-radius: 50%;
+    position: fixed;
+    bottom: 50px;
+    padding: 10px 12px;
+    right: 50px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.back-to-top.active {
+    bottom: 50px;
+    transition: 0.3s all;
+}
+footer{
+    background-color: rgb(3, 42, 76);
+    height: 152px;
+    margin-top: 100px;
+}
+.imag{
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    /* width: 400px; */
+    height: 270px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+.ftext{
+    text-align: center;
+    color: rgb(244, 213, 169);
+    font-weight: lighter;
+    font-size: 24px;
+    padding: 65px 0 0 0;
+}
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a {
+text-align: center;
+width: 30px;
+height: 30px;
+float: left;
+justify-content: center;
+background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png);
+background-size: 43px 43px;
+border: 1px solid #ccc;
+box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+border-radius: 24px;
+margin: 0 10px 10px 0;
+padding: 6px;
+color: #000;
+}
+
